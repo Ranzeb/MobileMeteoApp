@@ -6,11 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+@interface SecondViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UIAlertViewDelegate>
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface SecondViewController : UIViewController
 
 @end
-
-NS_ASSUME_NONNULL_END
